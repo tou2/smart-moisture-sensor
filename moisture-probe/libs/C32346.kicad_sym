@@ -1,0 +1,34 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_jlcpcb_mcp")
+  (symbol "C32346"
+    (pin_names (offset 0.762))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "Q13FC13500004" (at 0 -3.81 0) (effects (font (size 1.27 1.27))))
+    (property "Description" "-40℃~+85℃ 12.5pF 32.768kHz 70kΩ SMD crystal oscillator ±20ppm SMD3215-2P Crystals ROHS" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "LCSC" "C32346" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (symbol "C32346_0_1"
+      (rectangle (start -2.54 2.54) (end 2.54 -2.54)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
+      )
+    )
+    (symbol "C32346_1_1"
+      (pin passive line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)

@@ -1,0 +1,52 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_jlcpcb_mcp")
+  (symbol "C2909890"
+    (pin_names (offset 0.762))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 6.35 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SHT40-AD1B-R2" (at 0 -6.35 0) (effects (font (size 1.27 1.27))))
+    (property "Description" "-40℃~+125℃ 0%RH~100%RH 1.08V~3.6V 16bit 400nA Factory calibration、Built-in heater I2C ±0.2℃ ±1.8%RH DFN-4-EP(1.5x1.5) Temperature and Humidity Sensor ROHS" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "LCSC" "C2909890" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (symbol "C2909890_0_1"
+      (rectangle (start -6.35 5.08) (end 6.35 -5.08)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
+      )
+    )
+    (symbol "C2909890_1_1"
+      (pin passive line
+        (at -8.89 0 0)
+        (length 2.54)
+        (name "SDA" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -8.89 -2.54 0)
+        (length 2.54)
+        (name "SCL" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 8.89 -2.54 180)
+        (length 2.54)
+        (name "VDD" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 8.89 0 180)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 8.89 2.54 180)
+        (length 2.54)
+        (name "EP" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)

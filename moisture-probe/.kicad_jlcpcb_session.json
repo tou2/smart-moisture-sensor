@@ -1,0 +1,1029 @@
+{
+  "schema_version": 1,
+  "project_path": "C:\\Users\\user\\Documents\\GitHub\\smart-moisture-sensor\\moisture-probe",
+  "project_name": "moisture-probe",
+  "stage": "parts_sourced",
+  "created_at": "2026-11-11T14:58:21+00:00",
+  "updated_at": "2026-11-11T15:27:53+00:00",
+  "bom": [
+    {
+      "row": {
+        "query": "22pF 0402",
+        "qty": 2
+      },
+      "part": {
+        "lcsc": "C1555",
+        "mfr_part": "0402CG220J500NT",
+        "manufacturer": "FH (Guangdong Fenghua Advanced Tech)",
+        "description": "22pF 50V C0G \u00b15% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+        "package": "0402",
+        "basic": true,
+        "stock": 1540952,
+        "price_usd": 0.0019,
+        "datasheet_url": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG220J500NT_C1555.pdf",
+        "extra": {
+          "category": "Capacitors",
+          "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+          "preferred": false,
+          "source": "jlcpcb"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "row": {
+        "query": "1uF 0603",
+        "qty": 1
+      },
+      "part": {
+        "lcsc": "C15849",
+        "mfr_part": "CL10A105KB8NNNC",
+        "manufacturer": "",
+        "description": "1uF 50V X5R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+        "package": "0603",
+        "basic": true,
+        "stock": 0,
+        "price_usd": 0.0297,
+        "datasheet_url": "",
+        "extra": {
+          "category": "Capacitors",
+          "subcategory": "",
+          "preferred": false,
+          "stock_unknown": true
+        }
+      },
+      "warnings": [
+        "C15849 (CL10A105KB8NNNC): JLCPCB SMT stock is not available from the sources that answered. Verify availability on jlcpcb.com before ordering."
+      ]
+    },
+    {
+      "row": {
+        "query": "4.7uF 0603",
+        "qty": 1
+      },
+      "part": {
+        "lcsc": "C19666",
+        "mfr_part": "CL10A475KO8NNNC",
+        "manufacturer": "",
+        "description": "16V 4.7uF X5R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+        "package": "0603",
+        "basic": true,
+        "stock": 3742730,
+        "price_usd": 0.0236,
+        "datasheet_url": "",
+        "extra": {
+          "category": "Capacitors",
+          "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+          "preferred": false
+        }
+      },
+      "warnings": []
+    },
+    {
+      "row": {
+        "query": "10uF 0603",
+        "qty": 2
+      },
+      "part": {
+        "lcsc": "C19702",
+        "mfr_part": "CL10A106KP8NNNC",
+        "manufacturer": "",
+        "description": "10V 10uF X5R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+        "package": "0603",
+        "basic": true,
+        "stock": 0,
+        "price_usd": 0.0824,
+        "datasheet_url": "",
+        "extra": {
+          "category": "Capacitors",
+          "subcategory": "",
+          "preferred": false,
+          "stock_unknown": true
+        }
+      },
+      "warnings": [
+        "C19702 (CL10A106KP8NNNC): JLCPCB SMT stock is not available from the sources that answered. Verify availability on jlcpcb.com before ordering."
+      ]
+    },
+    {
+      "row": {
+        "query": "22uF 0805",
+        "qty": 1
+      },
+      "part": {
+        "lcsc": "C45783",
+        "mfr_part": "CL21A226MAQNNNE",
+        "manufacturer": "",
+        "description": "22uF 25V X5R \u00b120% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+        "package": "0805",
+        "basic": true,
+        "stock": 0,
+        "price_usd": 0.1185,
+        "datasheet_url": "",
+        "extra": {
+          "category": "Capacitors",
+          "subcategory": "",
+          "preferred": false,
+          "stock_unknown": true
+        }
+      },
+      "warnings": [
+        "C45783 (CL21A226MAQNNNE): JLCPCB SMT stock is not available from the sources that answered. Verify availability on jlcpcb.com before ordering."
+      ]
+    }
+  ],
+  "spec": {
+    "name": "moisture-probe",
+    "board": {
+      "width_mm": 18,
+      "height_mm": 170,
+      "layer_count": 2
+    },
+    "components": [
+      {
+        "ref": "U1",
+        "value": "nRF52832-QFAA",
+        "lcsc": "C77540",
+        "lib": "kicad_jlcpcb",
+        "fp": "C77540_QFN-48-EP_6x6_"
+      },
+      {
+        "ref": "U2",
+        "value": "TPS610994 3V3 boost",
+        "lcsc": "C2650335",
+        "lib": "kicad_jlcpcb",
+        "fp": "C2650335_DSBGA-6"
+      },
+      {
+        "ref": "U3",
+        "value": "SHT40",
+        "lcsc": "C2909890",
+        "lib": "kicad_jlcpcb",
+        "fp": "C2909890_DFN-4-EP_1_5x1_5_"
+      },
+      {
+        "ref": "U4",
+        "value": "MS5607",
+        "lcsc": "C97627",
+        "lib": "kicad_jlcpcb",
+        "fp": "C97627_SMD-8P"
+      },
+      {
+        "ref": "U5",
+        "value": "OPT3004",
+        "lcsc": "C2655153",
+        "lib": "kicad_jlcpcb",
+        "fp": "C2655153_WSON-6-EP_2x2_"
+      },
+      {
+        "ref": "BT1",
+        "value": "AAA holder",
+        "lcsc": "C964881",
+        "lib": "kicad_jlcpcb",
+        "fp": "C964881_-"
+      },
+      {
+        "ref": "BZ1",
+        "value": "Piezo 4kHz",
+        "lcsc": "C113159",
+        "lib": "kicad_jlcpcb",
+        "fp": "C113159_SMD_12x12mm"
+      },
+      {
+        "ref": "AE1",
+        "value": "2450AT42A100E",
+        "lcsc": "C2917719",
+        "lib": "kicad_jlcpcb",
+        "fp": "C2917719_SMD_5x2mm"
+      },
+      {
+        "ref": "Y1",
+        "value": "32MHz 8pF",
+        "lcsc": "C718072",
+        "lib": "kicad_jlcpcb",
+        "fp": "C718072_SMD2016-4P"
+      },
+      {
+        "ref": "Y2",
+        "value": "32.768kHz",
+        "lcsc": "C32346",
+        "lib": "kicad_jlcpcb",
+        "fp": "C32346_SMD3215-2P"
+      },
+      {
+        "ref": "L1",
+        "value": "1uH",
+        "lcsc": "C5349664",
+        "lib": "kicad_jlcpcb",
+        "fp": "C5349664_SMD_4_4x4_2mm"
+      },
+      {
+        "ref": "L2",
+        "value": "10uH",
+        "lcsc": "C6807729",
+        "lib": "kicad_jlcpcb",
+        "fp": "L_0603_1608Metric"
+      },
+      {
+        "ref": "L3",
+        "value": "15nH",
+        "lcsc": "C98055",
+        "lib": "kicad_jlcpcb",
+        "fp": "L_0402_1005Metric"
+      },
+      {
+        "ref": "L4",
+        "value": "3.9nH",
+        "lcsc": "C918993",
+        "lib": "kicad_jlcpcb",
+        "fp": "L_0201_0603Metric"
+      },
+      {
+        "ref": "C1",
+        "value": "12pF",
+        "lcsc": "C1547",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0402_1005Metric"
+      },
+      {
+        "ref": "C2",
+        "value": "12pF",
+        "lcsc": "C1547",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0402_1005Metric"
+      },
+      {
+        "ref": "C3",
+        "value": "22pF",
+        "lcsc": "C1555",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0402_1005Metric"
+      },
+      {
+        "ref": "C4",
+        "value": "22pF",
+        "lcsc": "C1555",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0402_1005Metric"
+      },
+      {
+        "ref": "C5",
+        "value": "0.8pF",
+        "lcsc": "C327032",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0402_1005Metric"
+      },
+      {
+        "ref": "C6",
+        "value": "100pF",
+        "lcsc": "C1546",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0402_1005Metric"
+      },
+      {
+        "ref": "C7",
+        "value": "100nF",
+        "lcsc": "C1525",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0402_1005Metric"
+      },
+      {
+        "ref": "C8",
+        "value": "100nF",
+        "lcsc": "C1525",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0402_1005Metric"
+      },
+      {
+        "ref": "C9",
+        "value": "100nF",
+        "lcsc": "C1525",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0402_1005Metric"
+      },
+      {
+        "ref": "C10",
+        "value": "100nF",
+        "lcsc": "C1525",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0402_1005Metric"
+      },
+      {
+        "ref": "C11",
+        "value": "100nF",
+        "lcsc": "C1525",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0402_1005Metric"
+      },
+      {
+        "ref": "C12",
+        "value": "100nF",
+        "lcsc": "C1525",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0402_1005Metric"
+      },
+      {
+        "ref": "C13",
+        "value": "100nF",
+        "lcsc": "C1525",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0402_1005Metric"
+      },
+      {
+        "ref": "C14",
+        "value": "1uF",
+        "lcsc": "C15849",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0603_1608Metric"
+      },
+      {
+        "ref": "C15",
+        "value": "4.7uF",
+        "lcsc": "C19666",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0603_1608Metric"
+      },
+      {
+        "ref": "C16",
+        "value": "10uF",
+        "lcsc": "C19702",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0603_1608Metric"
+      },
+      {
+        "ref": "C17",
+        "value": "10uF",
+        "lcsc": "C19702",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0603_1608Metric"
+      },
+      {
+        "ref": "C18",
+        "value": "22uF",
+        "lcsc": "C45783",
+        "lib": "kicad_jlcpcb",
+        "fp": "C_0805_2012Metric"
+      },
+      {
+        "ref": "R1",
+        "value": "0R",
+        "lcsc": "C17168",
+        "lib": "kicad_jlcpcb",
+        "fp": "R_0402_1005Metric"
+      },
+      {
+        "ref": "R2",
+        "value": "1M",
+        "lcsc": "C26083",
+        "lib": "kicad_jlcpcb",
+        "fp": "R_0402_1005Metric"
+      },
+      {
+        "ref": "R3",
+        "value": "1k",
+        "lcsc": "C11702",
+        "lib": "kicad_jlcpcb",
+        "fp": "R_0402_1005Metric"
+      },
+      {
+        "ref": "R4",
+        "value": "1k",
+        "lcsc": "C11702",
+        "lib": "kicad_jlcpcb",
+        "fp": "R_0402_1005Metric"
+      },
+      {
+        "ref": "R5",
+        "value": "4.7k",
+        "lcsc": "C25900",
+        "lib": "kicad_jlcpcb",
+        "fp": "R_0402_1005Metric"
+      },
+      {
+        "ref": "R6",
+        "value": "4.7k",
+        "lcsc": "C25900",
+        "lib": "kicad_jlcpcb",
+        "fp": "R_0402_1005Metric"
+      },
+      {
+        "ref": "D1",
+        "value": "LED green",
+        "lcsc": "C965806",
+        "lib": "kicad_jlcpcb",
+        "fp": "LED_0603_1608Metric"
+      },
+      {
+        "ref": "TP1",
+        "value": "SWDIO",
+        "lib": "kicad_jlcpcb",
+        "fp": "TestPoint_Pad_D1.0mm"
+      },
+      {
+        "ref": "TP2",
+        "value": "SWDCLK",
+        "lib": "kicad_jlcpcb",
+        "fp": "TestPoint_Pad_D1.0mm"
+      },
+      {
+        "ref": "TP3",
+        "value": "RESET",
+        "lib": "kicad_jlcpcb",
+        "fp": "TestPoint_Pad_D1.0mm"
+      },
+      {
+        "ref": "TP4",
+        "value": "3V3",
+        "lib": "kicad_jlcpcb",
+        "fp": "TestPoint_Pad_D1.0mm"
+      },
+      {
+        "ref": "TP5",
+        "value": "GND",
+        "lib": "kicad_jlcpcb",
+        "fp": "TestPoint_Pad_D1.0mm"
+      }
+    ],
+    "nets": {
+      "VBAT": [
+        [
+          "BT1",
+          "1"
+        ],
+        [
+          "BT1",
+          "4"
+        ],
+        [
+          "C16",
+          "1"
+        ],
+        [
+          "L1",
+          "1"
+        ],
+        [
+          "U2",
+          "A1"
+        ],
+        [
+          "U2",
+          "C1"
+        ],
+        [
+          "U1",
+          "6"
+        ]
+      ],
+      "SW": [
+        [
+          "L1",
+          "2"
+        ],
+        [
+          "U2",
+          "B1"
+        ]
+      ],
+      "3V3": [
+        [
+          "U2",
+          "B2"
+        ],
+        [
+          "U2",
+          "C2"
+        ],
+        [
+          "C18",
+          "1"
+        ],
+        [
+          "C13",
+          "1"
+        ],
+        [
+          "U1",
+          "13"
+        ],
+        [
+          "U1",
+          "36"
+        ],
+        [
+          "U1",
+          "48"
+        ],
+        [
+          "C7",
+          "1"
+        ],
+        [
+          "C8",
+          "1"
+        ],
+        [
+          "C15",
+          "1"
+        ],
+        [
+          "C17",
+          "1"
+        ],
+        [
+          "U3",
+          "3"
+        ],
+        [
+          "C10",
+          "1"
+        ],
+        [
+          "U4",
+          "1"
+        ],
+        [
+          "U4",
+          "2"
+        ],
+        [
+          "C11",
+          "1"
+        ],
+        [
+          "U5",
+          "1"
+        ],
+        [
+          "C12",
+          "1"
+        ],
+        [
+          "R5",
+          "1"
+        ],
+        [
+          "R6",
+          "1"
+        ],
+        [
+          "TP4",
+          "1"
+        ]
+      ],
+      "GND": [
+        [
+          "BT1",
+          "2"
+        ],
+        [
+          "BT1",
+          "3"
+        ],
+        [
+          "C16",
+          "2"
+        ],
+        [
+          "U2",
+          "A2"
+        ],
+        [
+          "C18",
+          "2"
+        ],
+        [
+          "C13",
+          "2"
+        ],
+        [
+          "U1",
+          "31"
+        ],
+        [
+          "U1",
+          "45"
+        ],
+        [
+          "U1",
+          "49"
+        ],
+        [
+          "C7",
+          "2"
+        ],
+        [
+          "C8",
+          "2"
+        ],
+        [
+          "C15",
+          "2"
+        ],
+        [
+          "C17",
+          "2"
+        ],
+        [
+          "C9",
+          "2"
+        ],
+        [
+          "C6",
+          "2"
+        ],
+        [
+          "C14",
+          "2"
+        ],
+        [
+          "C1",
+          "2"
+        ],
+        [
+          "C2",
+          "2"
+        ],
+        [
+          "Y1",
+          "2"
+        ],
+        [
+          "Y1",
+          "4"
+        ],
+        [
+          "C3",
+          "2"
+        ],
+        [
+          "C4",
+          "2"
+        ],
+        [
+          "C5",
+          "2"
+        ],
+        [
+          "U3",
+          "4"
+        ],
+        [
+          "U3",
+          "5"
+        ],
+        [
+          "C10",
+          "2"
+        ],
+        [
+          "U4",
+          "3"
+        ],
+        [
+          "U4",
+          "4"
+        ],
+        [
+          "U4",
+          "5"
+        ],
+        [
+          "C11",
+          "2"
+        ],
+        [
+          "U5",
+          "3"
+        ],
+        [
+          "U5",
+          "2"
+        ],
+        [
+          "U5",
+          "7"
+        ],
+        [
+          "C12",
+          "2"
+        ],
+        [
+          "D1",
+          "1"
+        ],
+        [
+          "TP5",
+          "1"
+        ]
+      ],
+      "DEC1": [
+        [
+          "U1",
+          "1"
+        ],
+        [
+          "C9",
+          "1"
+        ]
+      ],
+      "DEC3": [
+        [
+          "U1",
+          "33"
+        ],
+        [
+          "C6",
+          "1"
+        ]
+      ],
+      "DEC4": [
+        [
+          "U1",
+          "46"
+        ],
+        [
+          "C14",
+          "1"
+        ],
+        [
+          "L3",
+          "2"
+        ]
+      ],
+      "DCC": [
+        [
+          "U1",
+          "47"
+        ],
+        [
+          "L2",
+          "1"
+        ]
+      ],
+      "DCC_MID": [
+        [
+          "L2",
+          "2"
+        ],
+        [
+          "L3",
+          "1"
+        ]
+      ],
+      "XC1": [
+        [
+          "U1",
+          "34"
+        ],
+        [
+          "Y1",
+          "1"
+        ],
+        [
+          "C1",
+          "1"
+        ]
+      ],
+      "XC2": [
+        [
+          "U1",
+          "35"
+        ],
+        [
+          "Y1",
+          "3"
+        ],
+        [
+          "C2",
+          "1"
+        ]
+      ],
+      "XL1": [
+        [
+          "U1",
+          "2"
+        ],
+        [
+          "Y2",
+          "1"
+        ],
+        [
+          "C3",
+          "1"
+        ]
+      ],
+      "XL2": [
+        [
+          "U1",
+          "3"
+        ],
+        [
+          "Y2",
+          "2"
+        ],
+        [
+          "C4",
+          "1"
+        ]
+      ],
+      "ANT": [
+        [
+          "U1",
+          "30"
+        ],
+        [
+          "L4",
+          "1"
+        ]
+      ],
+      "RF_MATCH": [
+        [
+          "L4",
+          "2"
+        ],
+        [
+          "C5",
+          "1"
+        ],
+        [
+          "R1",
+          "1"
+        ]
+      ],
+      "RF_FEED": [
+        [
+          "R1",
+          "2"
+        ],
+        [
+          "AE1",
+          "1"
+        ]
+      ],
+      "MOIST_DRV": [
+        [
+          "U1",
+          "5"
+        ],
+        [
+          "R2",
+          "1"
+        ]
+      ],
+      "MOIST_SNS": [
+        [
+          "R2",
+          "2"
+        ],
+        [
+          "R3",
+          "1"
+        ]
+      ],
+      "MOIST_AIN": [
+        [
+          "R3",
+          "2"
+        ],
+        [
+          "U1",
+          "4"
+        ]
+      ],
+      "SDA": [
+        [
+          "U1",
+          "38"
+        ],
+        [
+          "U3",
+          "1"
+        ],
+        [
+          "U4",
+          "7"
+        ],
+        [
+          "U5",
+          "6"
+        ],
+        [
+          "R5",
+          "2"
+        ]
+      ],
+      "SCL": [
+        [
+          "U1",
+          "39"
+        ],
+        [
+          "U3",
+          "2"
+        ],
+        [
+          "U4",
+          "8"
+        ],
+        [
+          "U5",
+          "4"
+        ],
+        [
+          "R6",
+          "2"
+        ]
+      ],
+      "LIGHT_INT": [
+        [
+          "U1",
+          "37"
+        ],
+        [
+          "U5",
+          "5"
+        ]
+      ],
+      "BUZ_A": [
+        [
+          "U1",
+          "8"
+        ],
+        [
+          "BZ1",
+          "1"
+        ]
+      ],
+      "BUZ_B": [
+        [
+          "U1",
+          "9"
+        ],
+        [
+          "BZ1",
+          "2"
+        ]
+      ],
+      "LED": [
+        [
+          "U1",
+          "20"
+        ],
+        [
+          "R4",
+          "1"
+        ]
+      ],
+      "LED_A": [
+        [
+          "R4",
+          "2"
+        ],
+        [
+          "D1",
+          "2"
+        ]
+      ],
+      "SWDIO": [
+        [
+          "U1",
+          "26"
+        ],
+        [
+          "TP1",
+          "1"
+        ]
+      ],
+      "SWDCLK": [
+        [
+          "U1",
+          "25"
+        ],
+        [
+          "TP2",
+          "1"
+        ]
+      ],
+      "nRESET": [
+        [
+          "U1",
+          "24"
+        ],
+        [
+          "TP3",
+          "1"
+        ]
+      ]
+    }
+  },
+  "checkpoints": {
+    "project_created": true,
+    "parts_sourced": true,
+    "bom_confirmed": true,
+    "pcb_generated": true,
+    "handoff_rendered": true
+  },
+  "last_tool": "lcsc_resolve_bom",
+  "notes": "User approved 28-row BOM (15 extended, ~$45 setup fee). Asked to put status LED back (C965806 + 1k C11702). Unverified: TPS610994 inductor/cap values (datasheet download blocked), 3.9nH is 0201 only, AAA holder may be THT, 8 basic passives have stock_unknown."
+}

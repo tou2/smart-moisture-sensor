@@ -1,0 +1,34 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_jlcpcb_mcp")
+  (symbol "C2917719"
+    (pin_names (offset 0.762))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 8.89 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "2450AT42A100E" (at 0 -8.89 0) (effects (font (size 1.27 1.27))))
+    (property "Description" "-40℃~+85℃ 0dBi 1.1mm 2.4GHz 2mm 3W 50Ω 5mm Patch Antenna SMD,5x2mm Antennas ROHS" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "LCSC" "C2917719" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (symbol "C2917719_0_1"
+      (rectangle (start -2.54 7.62) (end 2.54 -7.62)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
+      )
+    )
+    (symbol "C2917719_1_1"
+      (pin passive line
+        (at 0 5.08 90)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 0 -5.08 270)
+        (length 2.54)
+        (name "ANT" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
